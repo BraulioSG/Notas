@@ -92,7 +92,7 @@ Commits all the changes in the staging stage
 ```
 git commit -m "this is a message"
 ```
-With `-m` is added a message to describe the commit
+With `-m` is added a message to describe the commit, without this argument, git opens a new window in **VS Code** to introduce the message manualy
 
 
 **Note**: it's importat to be in the correct folder to initialize the project
