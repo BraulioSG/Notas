@@ -1,4 +1,4 @@
 <!-- checklists -->
 ## ToDo list
-* [] remainig
+* [ ] remainig
 * [x] completed
