@@ -70,12 +70,17 @@ ___
 | `cd`  | [ directory ] |change the current directory |
 | `mkdir` | [ name ] | creates a new folder in the path |
 | `rmdir` | [ option, name ] |removes a folder of the path |
+| `rm` | [ option, name ] |removes a file of the path |
+| `mv` | [ name, new file ] | moves or rename a file of the path |
+
 
 ### Git commands
 Initialize a new project
 ```
 git init
 ```
+**Note**: it's importat to be in the correct folder to initialize the project
+
 Shows the current state of the repository, additions, modifications, etc.
 ```
 git status
@@ -94,8 +99,22 @@ git commit -m "this is a message"
 ```
 With `-m` is added a message to describe the commit, without this argument, git opens a new window in **VS Code** to introduce the message manualy
 
+Returning files from the staging stage
+```
+git restore --staged <file>
+```
+Removing the argument `--staged` will discard all changes in the file
 
-**Note**: it's importat to be in the correct folder to initialize the project
+you can add `git` to the terminal commands to safe time in the command line, for example: 
+```
+git rm <file>
+git mv <file> <new file>
+```
+Use `git rm` to remove a file and send it to the staging area, and `git mv` to rename or move a file
+
+
+## Git Ignore
+it is a file `.gitignore` located in the main folder, which gives to git instructions of which files should be ignored
 
 
 
