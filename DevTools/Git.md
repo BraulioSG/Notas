@@ -123,6 +123,17 @@ git log
 ```
 add the argument `--oneline` to make the return more compressed
 
+Adding a remote server to git to save the repository online
+```
+git remote add origin <link>
+```
+
+Sending the commits to the online repository
+```
+git push -u origin <branch>
+```
+The argument `-u` creates the branch in the online repository
+
 ## Branches
 theory about branches
 [option 1](https://youtu.be/VdGzPZ31ts8?t=3256)
@@ -136,6 +147,17 @@ Creates a new branch
 ```
 git checkout -b <branch name>
 ```
+
+Move along branches
+```
+git checkout <branch>
+```
+
+Merge a branches
+```
+git merge <branch>
+```
+**note**: this command is used int the branch with no changes
 
 
 ## Git Ignore
