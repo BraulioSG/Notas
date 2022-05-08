@@ -123,6 +123,20 @@ git log
 ```
 add the argument `--oneline` to make the return more compressed
 
+## Branches
+theory about branches
+[option 1](https://youtu.be/VdGzPZ31ts8?t=3256)
+
+Show the current branch we're working on
+```
+git branch
+```
+
+Creates a new branch
+```
+git checkout -b <branch name>
+```
+
 
 ## Git Ignore
 it is a file `.gitignore` located in the main folder, which gives to git instructions of which files should be ignored
