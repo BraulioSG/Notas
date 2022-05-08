@@ -112,6 +112,17 @@ git mv <file> <new file>
 ```
 Use `git rm` to remove a file and send it to the staging area, and `git mv` to rename or move a file
 
+Show the differences with the last commit to the actual files
+```
+git diff 
+```
+
+Displays the history of commits of the repository
+```
+git log
+```
+add the argument `--oneline` to make the return more compressed
+
 
 ## Git Ignore
 it is a file `.gitignore` located in the main folder, which gives to git instructions of which files should be ignored
