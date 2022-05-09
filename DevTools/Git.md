@@ -3,6 +3,8 @@
 >Git is a distributed **version control** system designed to *handle everything* from small to very large projects with speed and efficiency
 Official webpage of [Git](https://git-scm.com)
 
+[more info](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
+
 ### Git Usages
 * History (Versions)
 * Code storage
